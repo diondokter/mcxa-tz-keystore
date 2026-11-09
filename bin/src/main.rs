@@ -4,6 +4,8 @@
 
 use core::{panic::PanicInfo};
 
+mod sgi_pkc_romapi;
+
 #[panic_handler]
 fn panic(_: &PanicInfo) -> ! {
     loop {}
